@@ -18,17 +18,17 @@ o	Then create a SIFT object and run the openCV SIFT detect & compute function.
 
   	This will then detect keypoints and compute the descriptors.
   
-    •	Descriptors are vectors which stores the information about the keypoints.
+   •	Descriptors are vectors which stores the information about the keypoints.
     
 o	Histogram of Oriented Gradients (HOG’s)
 
-  	Calculates the image gradient vector of pixels inside a predetermined box.
+  	 Calculates the image gradient vector of pixels inside a predetermined box.
   
   	Gradient vector are sort of the direction or flow of the image intensity itself.
   
-    •	This gradient vector is then represented as a histogram.
+   •	This gradient vector is then represented as a histogram.
     
-    •	Get the cell & split into multiple angular bins based on angle. E.g. 20o per bin
+   •	Get the cell & split into multiple angular bins based on angle. E.g. 20o per bin
     
 o	HAAR classifiers
 
@@ -36,15 +36,15 @@ o	HAAR classifiers
   
   	Extract features using sliding windows of rectangular blocks.
   
-    •	These Haar features are single valued and are calculated by subtracting the sum of pixel intensities under the white rectangle from the black rectangles.
+   •	These Haar features are single valued and are calculated by subtracting the sum of pixel intensities under the white rectangle from the black rectangles.
     
-    •	But all this requires tons of processing & computation.
+   •	But all this requires tons of processing & computation.
     
   	Therefore Boosting was then used.
   
-    •	To find the most informative features.
+   •	To find the most informative features.
     
-    •	Use weak classifiers to build strong classifiers. How?
+   •	Use weak classifiers to build strong classifiers. How?
     
 o	By assigning heavier weighted penalties on incorrect classifications.
 
