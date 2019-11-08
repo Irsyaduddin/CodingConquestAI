@@ -4,6 +4,7 @@ Prep for Coding Conquest Brunei for December 2019
 So far what I have researched are OpenCV and Google's TensorFlow machine learning platform.
 
 Regarding how OpenCV works: 
+
 o	 Use function SIFT detector, then if found draw region of interest (ROI). Then crop out the ROI and feed it to the SWIFT detector.
 
 o	SIFT takes 2 input images: 
